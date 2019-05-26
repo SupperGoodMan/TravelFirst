@@ -1,7 +1,11 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
+		<router-link to="/logo">登陆</router-link>
+		&nbsp;&nbps;
+		<router-link to="/">首页</router-link>
 		<router-view></router-view>
+		<a href="./pages/home.vue">首页</a>
   </div>
 </template>
 
